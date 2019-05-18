@@ -1,0 +1,30 @@
+{%  extends 'base.html' %}
+{% load static %}
+
+
+
+<html>
+<head>
+<title>Article_new</title>
+{% block content %}
+<link rel="stylesheet" href=" {% static 'articlestyle.css'  %}" type="text/css">
+</head>
+<body>
+  <div class="formdiv">
+
+<form class="formtag" action="" method = "POST">
+  {% csrf_token %}
+
+  {{form.as_p}}
+
+<input class="inputtag" type="submit" value="save">
+
+
+
+</form>
+</div>
+
+{% endblock %}
+
+</body>
+</html>

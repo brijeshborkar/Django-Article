@@ -1,0 +1,27 @@
+{%  extends 'base.html' %}
+
+{% load static %}
+
+
+<html>
+<head>
+<title>Article_new</title>
+
+{% block content %}
+
+<link rel="stylesheet" href=" {% static 'detailstyle.css'  %}" type="text/css">
+</head>
+<body>
+  <br><br><br>
+<div class="detaildiv">
+<h2 class="heading2">{{batman.title}}</h2>
+<p class="para">{{batman.text}}</p>
+</div>
+<br><br>
+
+<div class="editdiv"><a class="edit" href="{% url 'article_edit' batman.pk %}">Edit</a></div><br><br>
+<div class="deletediv"><a class="delete" href="{% url 'article_delete' batman.pk %}">Delete</a></div>
+
+{% endblock %}
+</body>
+</html>

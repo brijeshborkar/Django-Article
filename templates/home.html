@@ -1,0 +1,40 @@
+{%  extends 'base.html' %}
+{% load static %}
+
+
+<html>
+<head>
+<title>Homepage</title>
+  {% block content %}
+<link rel="stylesheet" href=" {% static 'homestyle.css'  %}" type="text/css">
+
+
+
+</head>
+<body>
+  <div class="box1">
+    <h4 class="heading4">In Brijesh's Article you can find new new thing which is
+      quite interesting and encourging to look at, you can get some of the answers related to
+      that or if any of the article which is related to your studies. </h4>
+
+  </div>
+
+<div class="box2">
+<h3 class="heading2">You can write your article here</h3><br><br><br>
+<div class="box4"><a class="hiperlink" href="{% url 'article_new' %}"><b>Tap It</b></a></div>
+</div>
+<div class="box3">
+{% for i in object_list %}
+<h3 class="heading3"><a class="hiperlink2" href="{% url 'detail' i.pk %}">{{i.title}}</a></h3>
+
+<p class="para">{{i.text}}</p>
+
+
+<hr>
+
+{% endfor %}
+</div>
+
+{% endblock %}
+</body>
+</html>

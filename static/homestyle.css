@@ -1,0 +1,98 @@
+.box1{
+  width: 860px;
+  height: 300px;
+  background-color: red;
+  margin-left: -650px;
+  margin-top: 75px;
+  background-color: #FCFCFC;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 2px #C4C4C5;
+}
+
+.heading4{
+padding-top: 50px;
+font-family: cursive;
+text-align: justify;
+margin-left:50px;
+margin-right: 50px;
+color: #E04C4C;
+}
+
+.box2{
+  width: 300px;
+  height: 300px;
+
+  margin-left: 525px;
+  margin-top: -318px;
+  background-color: #FCFCFC;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 2px #C4C4C5;
+}
+
+.box2 .heading2{
+  padding-top: 80px;
+}
+.box4 .hiperlink{
+  text-decoration: none;
+  line-height: 40px;
+
+}
+
+.box4{
+  background-color: #54B7F9;
+  height: 40px;
+  width: 80px;
+  border-radius: 7px;
+  /* box-shadow: 2px 2px 2px 2px #8C908E; */
+
+}
+.box4:hover{
+background-color: #258FFB;
+transition: 0.2s ease-in-out;
+
+}
+.box4 .hiperlink:hover{
+
+  color:white;
+}
+
+.hiperlink {
+display: block;
+}
+
+.hiperlink b{
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size:15px;
+display: block;
+}
+
+.hiperlink b:hover{
+font-family: cursive;
+
+}
+
+.box3{
+  margin-left: -345px;
+  margin-top: -14px;
+  width: 78%;
+  height: 300px;
+  background-color: #FCFCFC;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 2px #C4C4C5;
+}
+
+.box3 .heading3 .hiperlink2{
+  text-decoration: none;
+  font-size: 25px;
+  color: blue;
+}
+
+.box3 .heading3 .hiperlink2:hover{
+
+  text-decoration: underline;
+  color: blue;
+}
+
+.para{
+  color: green;
+}

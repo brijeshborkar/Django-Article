@@ -1,0 +1,83 @@
+.detaildiv{
+
+  width: 900px;
+  height:300px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+  background-color: white;
+}
+
+
+
+
+.detaildiv .heading2{
+  text-decoration: none;
+  font-size: 40px;
+  color: blue;
+  padding-top: 10px;
+}
+.detaildiv .para{
+
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.para{
+color: green;
+font-size: 20px;
+}
+/*##############################33*/
+.editdiv{
+  background-color: #49E385;
+  height: 40px;
+  width: 90px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.editdiv:hover{
+background-color: #1FA152;
+transition: 0.2s ease-in-out;
+
+}
+.editdiv .edit{
+  text-decoration: none;
+  line-height: 40px;
+
+}
+.editdiv .edit:hover{
+
+  color:white;
+}
+
+.edit{
+display: block;
+}
+
+/*###################################################################################*/
+.deletediv{
+  background-color: #FB3E35;
+  height: 40px;
+  width: 90px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px 1px black;
+
+}
+.deletediv:hover{
+background-color: #BA0F07;
+transition: 0.2s ease-in-out;
+
+}
+.deletediv .delete{
+  text-decoration: none;
+  line-height: 40px;
+
+}
+.deletediv .delete:hover{
+
+  color:white;
+}
+
+.delete{
+display: block;
+}
